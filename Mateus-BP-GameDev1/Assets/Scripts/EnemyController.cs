@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public enum EnemyStates { Patrol, Chase, Attack }
+    public enum EnemyStates { Patrol, Chase, Attack, Hit, Death }
     public EnemyStates state = EnemyStates.Patrol;
 
     public Animator anim;
@@ -37,9 +37,11 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        if (locked) return;
+
         anim.SetBool("IsWalking", Mathf.Abs(rig.linearVelocity.x) > 0.1f);
 
-        if (Physics2D.Raycast(transform.position, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers))
+        if (Physics2D.Raycast(col.bounds.center, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers))
         {
             anim.SetBool("IsGrounded", true);
         }
@@ -48,9 +50,7 @@ public class EnemyController : MonoBehaviour
             anim.SetBool("IsGrounded", true);
         }
 
-        if (locked) return;
-
-        switch(state)
+        switch (state)
         {
             case EnemyStates.Patrol:
                 PatrolState();
@@ -60,6 +60,12 @@ public class EnemyController : MonoBehaviour
                 break;
             case EnemyStates.Attack:
                 AttackState();
+                break;
+            case EnemyStates.Hit:
+                HitState();
+                break;
+            case EnemyStates.Death:
+                DeathState();
                 break;
         }
     }
@@ -72,7 +78,7 @@ public class EnemyController : MonoBehaviour
             col.bounds.center.x + col.bounds.extents.x * direction,
             col.bounds.center.y);
 
-        if(!Physics2D.Raycast(point, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers))
+        if (!Physics2D.Raycast(point, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers))
         {
             direction *= -1;
             transform.localScale = new Vector2(direction, 1);
@@ -88,21 +94,20 @@ public class EnemyController : MonoBehaviour
             else
             {
                 state = EnemyStates.Chase;
+                rig.bodyType = RigidbodyType2D.Dynamic;
             }
         }
     }
 
     private void ChaseState()
     {
-        direction = (player.transform.position - transform.position).normalized.x;
-        transform.localScale = new Vector2(direction, 1);
-
+        SetDirection();
         rig.linearVelocity = new Vector2(direction * speed, rig.linearVelocity.y);
-
         float distance = Vector2.Distance(transform.position, player.transform.position);
         if (distance > chaseDistance)
         {
             state = EnemyStates.Patrol;
+            rig.bodyType = RigidbodyType2D.Dynamic;
         }
         else if (distance < attackDistance)
         {
@@ -118,10 +123,12 @@ public class EnemyController : MonoBehaviour
             if (distance > chaseDistance)
             {
                 state = EnemyStates.Patrol;
+                rig.bodyType = RigidbodyType2D.Dynamic;
             }
             else
             {
                 state = EnemyStates.Chase;
+                rig.bodyType = RigidbodyType2D.Dynamic;
             }
         }
         else
@@ -130,13 +137,32 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void EnterAttack()
+    private void HitState()
+    {
+        state = EnemyStates.Patrol;
+        rig.bodyType = RigidbodyType2D.Dynamic;
+    }
+
+    private void DeathState()
+    {
+
+    }
+
+    private void SetDirection()
     {
         direction = (player.transform.position - transform.position).normalized.x;
+        if (direction > 0) direction = 1;
+        else if (direction < 0) direction = -1;
         transform.localScale = new Vector2(direction, 1);
+    }
 
+    private void EnterAttack()
+    {
+        SetDirection();
         state = EnemyStates.Attack;
+        rig.bodyType = RigidbodyType2D.Kinematic;
         anim.SetTrigger("Attack");
+        anim.SetBool("IsWalking", false);
         if (attackFX) Instantiate(attackFX, attackPoint.position, attackPoint.rotation);
         locked = true;
         CancelInvoke(nameof(Unlock));
@@ -149,17 +175,20 @@ public class EnemyController : MonoBehaviour
     {
         hp -= damage;
         locked = true;
+        rig.bodyType = RigidbodyType2D.Kinematic;
         CancelInvoke(nameof(Unlock));
         if (hitFX) Instantiate(hitFX, transform.position, transform.rotation);
 
         if (hp > 0)
         {
+            state = EnemyStates.Hit;
             anim.SetTrigger("Hit");
             Invoke(nameof(Unlock), hitDuration);
             rig.linearVelocity = (transform.position - pos).normalized * push;
         }
         else
         {
+            state = EnemyStates.Death;
             anim.SetTrigger("Death");
             Invoke(nameof(AutoDestroy), deathDuration);
             rig.linearVelocity = Vector2.zero;
