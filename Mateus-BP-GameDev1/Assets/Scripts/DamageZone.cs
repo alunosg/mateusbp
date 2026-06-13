@@ -14,7 +14,7 @@ public class DamageZone : MonoBehaviour
         {
             collision.GetComponent<PlayerController>().GetHit(damage, push, transform.position);
         }
-        else if(hitEnemy && collision.CompareTag("enemy"))
+        else if(hitEnemy && collision.CompareTag("Enemy"))
         {
             collision.GetComponent<EnemyController>().GetHit(damage, push, transform.position);
         }

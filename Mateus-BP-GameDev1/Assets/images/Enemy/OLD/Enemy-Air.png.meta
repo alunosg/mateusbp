@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: db6c63cf02867944ebf43321a233bab0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 394449250171911640
+    second: Enemy-Air_0
+  - first:
+      213: 6884711882756715613
+    second: Enemy-Air_1
+  - first:
+      213: -4223100512423230965
+    second: Enemy-Air_2
+  - first:
+      213: 2170230751483892218
+    second: Enemy-Air_3
+  - first:
+      213: 5918553420966779467
+    second: Enemy-Air_4
+  - first:
+      213: -256579107670815835
+    second: Enemy-Air_5
+  - first:
+      213: 3552893249036386745
+    second: Enemy-Air_6
+  - first:
+      213: -6129719939428657590
+    second: Enemy-Air_7
+  - first:
+      213: 4459481302461108058
+    second: Enemy-Air_8
+  - first:
+      213: 2595456535083502114
+    second: Enemy-Air_9
+  - first:
+      213: -7529450395635802423
+    second: Enemy-Air_10
+  - first:
+      213: -3286722791704977476
+    second: Enemy-Air_11
+  - first:
+      213: 4594046121836124322
+    second: Enemy-Air_12
+  - first:
+      213: 1046524946450490501
+    second: Enemy-Air_13
+  - first:
+      213: -5188097501032088989
+    second: Enemy-Air_14
+  - first:
+      213: -1970859292097638939
+    second: Enemy-Air_15
+  - first:
+      213: -7431235907704125432
+    second: Enemy-Air_16
+  - first:
+      213: -2832251877716548412
+    second: Enemy-Air_17
+  - first:
+      213: 6203594419714381295
+    second: Enemy-Air_18
+  - first:
+      213: -2276510727855642064
+    second: Enemy-Air_19
+  - first:
+      213: 2200330263608343805
+    second: Enemy-Air_20
+  - first:
+      213: -345274359275072815
+    second: Enemy-Air_21
+  - first:
+      213: 8843061725218836855
+    second: Enemy-Air_22
+  - first:
+      213: -8146732112137469729
+    second: Enemy-Air_23
+  - first:
+      213: 4903911972378650240
+    second: Enemy-Air_24
+  - first:
+      213: -4271368778367107868
+    second: Enemy-Air_25
+  - first:
+      213: 7021465307759824621
+    second: Enemy-Air_26
+  - first:
+      213: 9360962952147407
+    second: Enemy-Air_27
+  - first:
+      213: 6414442391231961436
+    second: Enemy-Air_28
+  - first:
+      213: 1734610153206953591
+    second: Enemy-Air_29
+  - first:
+      213: 8032111913639666683
+    second: Enemy-Air_30
+  - first:
+      213: 3717800171469069845
+    second: Enemy-Air_31
+  - first:
+      213: -6649029246326409870
+    second: Enemy-Air_32
+  - first:
+      213: 4203448438802307759
+    second: Enemy-Air_33
+  - first:
+      213: 6188436972309772480
+    second: Enemy-Air_34
+  - first:
+      213: -8534571930865041281
+    second: Enemy-Air_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 175
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy-Air_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd7a6ec08d597500800000000000000
+      internalID: 394449250171911640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ff980bf86b8f50800000000000000
+      internalID: 6884711882756715613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_2
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b024e3a75788465c0800000000000000
+      internalID: -4223100512423230965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_3
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af193debe553e1e10800000000000000
+      internalID: 2170230751483892218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_4
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ad5e08afce22250800000000000000
+      internalID: 5918553420966779467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_5
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 2390
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab8e7639a2707cf0800000000000000
+      internalID: -256579107670815835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b182b106996e4130800000000000000
+      internalID: 3552893249036386745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46d9b5113cdeeaa0800000000000000
+      internalID: -6129719939428657590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_8
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fc0b30e9243ed30800000000000000
+      internalID: 4459481302461108058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_9
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a4e93a7f9e40420800000000000000
+      internalID: 2595456535083502114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_10
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce143602c4028790800000000000000
+      internalID: -7529450395635802423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_11
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1912
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf9e35e8073362d0800000000000000
+      internalID: -3286722791704977476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a89dc58b9451cf30800000000000000
+      internalID: 4594046121836124322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58424c1e4e0068e00800000000000000
+      internalID: 1046524946450490501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36af3ee7fcc2008b0800000000000000
+      internalID: -5188097501032088989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_15
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed0e387ae916a4e0800000000000000
+      internalID: -1970859292097638939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_16
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8080b277052fed890800000000000000
+      internalID: -7431235907704125432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_17
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1434
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4a5425ce1d1b8d0800000000000000
+      internalID: -2832251877716548412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5dba5b148971650800000000000000
+      internalID: 6203594419714381295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a6cc2fd853860e0800000000000000
+      internalID: -2276510727855642064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_20
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcbae687b4298e10800000000000000
+      internalID: 2200330263608343805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_21
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2db51bcc6553bf0800000000000000
+      internalID: -345274359275072815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_22
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771958a59cdd8ba70800000000000000
+      internalID: 8843061725218836855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_23
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 956
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd047c7ae4ef0fe80800000000000000
+      internalID: -8146732112137469729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0862a63f4f13e0440800000000000000
+      internalID: 4903911972378650240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_25
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaadbec157dd2a748a9bf367b5bb460e
+      internalID: -4271368778367107868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_26
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146c1ea46cd83e14f89b5e48c263dd63
+      internalID: 7021465307759824621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_27
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41ffa31c53d344b836c7f52468d9b5
+      internalID: 9360962952147407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_28
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080d7b3f53ec0a4fb4e885b864089bd
+      internalID: 6414442391231961436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_29
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 478
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1fa522664d5694caaf1256ee6f6851
+      internalID: 1734610153206953591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48153181435ca849bc1c872d25c5713
+      internalID: 8032111913639666683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc0be2ce15f0b242bd81ebc1ce70779
+      internalID: 3717800171469069845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_32
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6955a96ce569544eaa3cbde557220f8
+      internalID: -6649029246326409870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_33
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a5d00ebe018f4694bc48ec912a10a
+      internalID: 4203448438802307759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_34
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e9d2aceb0a46946b04b62cbd0ff625
+      internalID: 6188436972309772480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Air_35
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 0
+        width: 496
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bcb50347ab01428c383bf4f40663f
+      internalID: -8534571930865041281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 384676d90b24cc4488ee74d463b0fede
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":6.0},"gridSpriteSize":{"x":496.0,"y":478.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Enemy-Air_0: 394449250171911640
+      Enemy-Air_1: 6884711882756715613
+      Enemy-Air_10: -7529450395635802423
+      Enemy-Air_11: -3286722791704977476
+      Enemy-Air_12: 4594046121836124322
+      Enemy-Air_13: 1046524946450490501
+      Enemy-Air_14: -5188097501032088989
+      Enemy-Air_15: -1970859292097638939
+      Enemy-Air_16: -7431235907704125432
+      Enemy-Air_17: -2832251877716548412
+      Enemy-Air_18: 6203594419714381295
+      Enemy-Air_19: -2276510727855642064
+      Enemy-Air_2: -4223100512423230965
+      Enemy-Air_20: 2200330263608343805
+      Enemy-Air_21: -345274359275072815
+      Enemy-Air_22: 8843061725218836855
+      Enemy-Air_23: -8146732112137469729
+      Enemy-Air_24: 4903911972378650240
+      Enemy-Air_25: -4271368778367107868
+      Enemy-Air_26: 7021465307759824621
+      Enemy-Air_27: 9360962952147407
+      Enemy-Air_28: 6414442391231961436
+      Enemy-Air_29: 1734610153206953591
+      Enemy-Air_3: 2170230751483892218
+      Enemy-Air_30: 8032111913639666683
+      Enemy-Air_31: 3717800171469069845
+      Enemy-Air_32: -6649029246326409870
+      Enemy-Air_33: 4203448438802307759
+      Enemy-Air_34: 6188436972309772480
+      Enemy-Air_35: -8534571930865041281
+      Enemy-Air_4: 5918553420966779467
+      Enemy-Air_5: -256579107670815835
+      Enemy-Air_6: 3552893249036386745
+      Enemy-Air_7: -6129719939428657590
+      Enemy-Air_8: 4459481302461108058
+      Enemy-Air_9: 2595456535083502114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

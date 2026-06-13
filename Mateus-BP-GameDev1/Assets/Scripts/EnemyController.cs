@@ -78,7 +78,8 @@ public class EnemyController : MonoBehaviour
             col.bounds.center.x + col.bounds.extents.x * direction,
             col.bounds.center.y);
 
-        if (!Physics2D.Raycast(point, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers))
+        if (!Physics2D.Raycast(point, Vector2.down, col.bounds.extents.y * 1.1f, floorLayers) ||
+            Physics2D.Raycast(point, Vector2.right * direction, 0.1f, floorLayers))
         {
             direction *= -1;
             transform.localScale = new Vector2(direction, 1);
@@ -150,9 +151,9 @@ public class EnemyController : MonoBehaviour
 
     private void SetDirection()
     {
-        direction = (player.transform.position - transform.position).normalized.x;
-        if (direction > 0) direction = 1;
-        else if (direction < 0) direction = -1;
+        float distance = (player.transform.position - transform.position).x;
+        if (distance > attackDistance * 0.25f) direction = 1;
+        else if (distance < -attackDistance * 0.25f) direction = -1;
         transform.localScale = new Vector2(direction, 1);
     }
 
@@ -160,6 +161,7 @@ public class EnemyController : MonoBehaviour
     {
         SetDirection();
         state = EnemyStates.Attack;
+        rig.linearVelocity = Vector2.zero;
         rig.bodyType = RigidbodyType2D.Kinematic;
         anim.SetTrigger("Attack");
         anim.SetBool("IsWalking", false);
